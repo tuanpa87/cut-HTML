@@ -7,7 +7,57 @@ $icon-font-path: '../fonts/';
 
 
 //Hung code here
-
+//new
+ /* the slides */
+ .slick-slide {
+    margin: 0 10px;
+  }
+  /* the parent */
+  .slick-list {
+    margin: 0 -10px;
+  }
+.news{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: #f1cc21;
+    text-align: center;
+    .new-test{
+        margin-bottom: 50px;
+    }
+    hr{
+        border-top: 2px solid black;
+    }
+}
+.new-title {
+    font-size: 34px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.new-subtitle{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.new-detail {
+    background: #ffffff;
+    height: 408px;
+}
+.news-media{
+    height: 170px;
+}
+.new-detail-title {
+    margin-top: 50px;
+}
+.new-end-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+.new-end-folow {
+    font-size: 21px;
+    margin-top: 20px;
+}
+.new-slider {
+    margin-bottom: 50px;
+}
 
 
 //Tuan code here
