@@ -1,1 +1,12 @@
-console.log('\'Allo \'Allo!');
+$( document ).ready(function() {
+  
+  //Hung code here
+
+
+
+  //Tuan code here
+
+});
+
+
+
