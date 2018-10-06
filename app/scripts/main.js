@@ -16,6 +16,16 @@ $( document ).ready(function() {
 
   //Tuan code here
 
+  var clockDiv = $('.clock')
+  var timeRemain = (new Date(clockDiv.data('date')) - new Date()) / 1000;
+  //console.log(timeRemain);
+
+  var clock = clockDiv.FlipClock(timeRemain, {
+    clockFace: 'DailyCounter',
+    countdown: true,
+    showSeconds: false
+  });
+
 });
 
 

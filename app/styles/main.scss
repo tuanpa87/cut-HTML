@@ -61,3 +61,18 @@ $icon-font-path: '../fonts/';
 
 
 //Tuan code here
+
+
+
+h2 {
+  font-size: 45px;
+  color: #f1cc21;
+}
+
+.flip-clock-divider {
+  .flip-clock-label {
+    top: auto;
+    bottom: -1.5em;
+    text-transform: uppercase;
+  }
+}
