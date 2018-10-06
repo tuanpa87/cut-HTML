@@ -39,7 +39,7 @@ $icon-font-path: '../fonts/';
 }
 .new-detail {
     background: #ffffff;
-    height: 408px;
+    min-height: 458px;
 }
 .news-media{
     height: 170px;
@@ -57,6 +57,14 @@ $icon-font-path: '../fonts/';
 }
 .new-slider {
     margin-bottom: 50px;
+}
+
+.gallery-left {
+    width: 33%;
+}
+.gallery-right {
+    width: 67%;
+    float: left;
 }
 
 
